@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
-"""Basic ditionnary
+"""Basic ditionnary where your data are stored
 """
 from base_caching import BaseCaching
 
 
 class BasicCache(BaseCaching):
-    """class"""
+    """class basicCach definition"""
     def put(self, key, item):
         """Add item in the cache."""
         if key is None or item is None:
